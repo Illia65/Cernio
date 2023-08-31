@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+  .tab__item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tab__item {
+    width: 100%;
+  }
+  .tab__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tabs__nav-btn {
+    padding: 7px 15px;
+  }
+  .header__logo {
+    font-size: 2rem;
+  }
+  .header__list {
+    gap: 1rem;
+  }
+}

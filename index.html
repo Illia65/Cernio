@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+
+		<title>Cernio</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Cernio</div>
+					<nav class="header__nav">
+						<ul class="header__list">
+							<li class="header__item">
+								<a class="header__link" href="#">About</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">About</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">About</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="tabs">
+			<div class="container">
+				<div id="loader" class="loader">Loading...</div>
+				<div class="tabs__inner">
+					<div class="tabs__nav">
+						<div class="tabs__nav-btn" data-tab="#people" data-tab-type="people">
+							People
+						</div>
+						<div class="tabs__nav-btn" data-tab="#planets" data-tab-type="planets">
+							Planets
+						</div>
+						<div class="tabs__nav-btn" data-tab="#films" data-tab-type="films">Films</div>
+					</div>
+					<div class="tabs__content">
+						<div class="tabs__item" id="people">
+							<!-- Содержимое блока Planets -->
+						</div>
+						<div class="tabs__item" id="planets">
+							<!-- Содержимое блока Planets -->
+						</div>
+						<div class="tabs__item" id="films">
+							<!-- Содержимое блока Planets -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div id="popup" class="popup">
+			<span class="close-popup">&times;</span>
+			<div class="popup-content">
+				<!-- Здесь будут отображаться подробные данные -->
+			</div>
+		</div>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
