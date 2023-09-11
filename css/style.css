@@ -113,7 +113,7 @@ body {
 .tabs__content {
 }
 .tabs__item {
-	display: none;
+	/* display: none; */
 }
 .tabs__item.active {
 	display: flex;
